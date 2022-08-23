@@ -1,0 +1,17 @@
+{
+    "name":"Silicon Events",
+    "short_name":"Silicon Events",
+    "start_url":"index",
+    "display":"standalone",
+    "background_color":"#034694",
+    "theme_color":"#034694",
+    "scope": ".",
+    "description":"Silicon Events : one stop portal for all events@Silion",
+    "icons":[
+        {
+            "src":"pwaLogo.png",
+            "sizes":"144x144",
+            "type":"image/png"
+        }
+    ]
+}

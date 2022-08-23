@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^share/([0-9a-zA-Z-]+)*$ ./share.php?shortlink=$1
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
